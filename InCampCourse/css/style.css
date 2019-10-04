@@ -1,21 +1,21 @@
 body {
-	font-family: Arial, Sans-Serif;
+    font-family: Arial, Sans-Serif;
 }
 
 header h1 {
-	color: greenyellow;
-	margin: 0;
-	position: absolute;
-	top: 20px;
-	left: 50%;
-	transform: translate(-50%);
+    color: greenyellow;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 header img {
-	position: relative;
-	top: 20px;
-	left: 30px;
-	width: 100px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 100px;
 }
 
 .badge {
@@ -46,60 +46,60 @@ button {
 }
 
 main img {
-	width: 100px;
-	height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 header {
-	margin: 0;
-	background-color: yellowgreen;
+    margin: 0;
+    background-color: yellowgreen;
 }
 
 main {
-	margin: 0;
-	background-color: #c8e8e6;
-	overflow: auto;
+    margin: 0;
+    background-color: #c8e8e6;
+    overflow: auto;
 }
 
 main>h2 {
-	text-align: center;
-	margin: 0;
-	padding: 10px;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: "FreeMono";
-	color: #6e2525;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "FreeMono";
+    color: #6e2525;
 }
 
 article {
-	margin: 0;
-	padding: 10px;
+    margin: 0;
+    padding: 10px;
 }
 
 section {
-	background-color: #64b9c4;
-	border-radius: 20px;
-	text-align: center;
-	float: left;
-	width: 245px;
-	height: 300px;
-	margin: 3px;
-	padding-left: 5px;
-	padding-right: 5px;
+    background-color: #64b9c4;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    width: 245px;
+    height: 300px;
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 section img {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 section p {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 footer {
-	margin-top: 30px;
-	color: #aaaaaa;
-	border-top: 1px solid #aaaaaa;
-	padding-top: 20px;
+    margin-top: 30px;
+    color: #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    padding-top: 20px;
 }

@@ -1,129 +1,129 @@
 body {
-	font-family: Arial, Sans-Serif;
+    font-family: Arial, Sans-Serif;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 p {
-	font-size: 13px;
+    font-size: 13px;
 }
 
 .container {
-	margin: 0 auto;
-	width: 960px;
+    margin: 0 auto;
+    width: 960px;
 }
 
 header {
-	padding: 10px 0;
-	background-color: yellowgreen;
+    padding: 10px 0;
+    background-color: yellowgreen;
 }
 
 header h1 {
-	color: greenyellow;
-	margin-left: 20px;
+    color: greenyellow;
+    margin-left: 20px;
 }
 
 nav {
-	background-color: #222;
-	min-height: 64px;
+    background-color: #222;
+    min-height: 64px;
 }
 
 nav li {
-	float: left;
-	width: 100px;
+    float: left;
+    width: 100px;
 }
 
 nav a {
-	display: block;
-	color: #9d9d9d;
-	line-height: 4em;
-	font-weight: bold;
-	text-align: center;
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
 }
 
 nav li a:hover {
-	color: yellowgreen;
-	background-color: black;
+    color: yellowgreen;
+    background-color: black;
 }
 
 .badge {
-   position:relative;
+    position:relative;
 }
 
 .badge[data-badge]::after {
-   content: attr(data-badge);
-   position: absolute;
-   top: -5px;
-   font-size: .7em;
-   background: red;
-   color: white;
-   width: 25px;
-   height: 25px;
-   text-align: center;
-   line-height: 25px;
-   border-radius: 50%;
+    content: attr(data-badge);
+    position: absolute;
+    top: -5px;
+    font-size: .7em;
+    background: red;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
 }
 
 .login {
-	padding: 15px 0;
-	float: right;
+    padding: 15px 0;
+    float: right;
 }
 
 .login input[type="text"],
 .login input[type="password"] {
-	padding: 5px;
-	margin-right: 5px;
-	border: 1px solid transparent;
-	border-radius: 20px;
-	outline: none;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    outline: none;
 }
 
 .login input[type="submit"] {
-	padding: 5px 15px;
-	border: 1px solid lightgrey;
-	border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
 }
 
 .login input[type="submit"]:hover,
 button:hover {
-	background-color: darkgrey;
-	color: white;
+    background-color: darkgrey;
+    color: white;
 }
 
 main {
-	overflow: auto;
+    overflow: auto;
 }
 
 section {
-	float: left;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-top: 5px; 
-	width: 33.33%;
-	height: 550px;
-	overflow: hidden;
-	box-sizing: border-box;
-	border: 1px solid black;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px; 
+    width: 33.33%;
+    height: 550px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
 section img {
-	width: 100%;
+    width: 100%;
 }
 
 footer {
-	background-color: yellowgreen;
-	color: black;
-	padding: 20px 20px;
-	margin-top: 30px;
+    background-color: yellowgreen;
+    color: black;
+    padding: 20px 20px;
+    margin-top: 30px;
 }
